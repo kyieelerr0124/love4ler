@@ -5,10 +5,10 @@
 const gameData = {
 
     question:
-        "Wanna go out with me? ❤️",
+        "pautang ako 500 flizz",
 
     successMessage:
-        "You said YES! You just made me the happiest person ever. 🥹💕",
+        "just kidding. 🥹💕",
 
     finalTitle:
         "One Last Thing...",
@@ -17,7 +17,7 @@ const gameData = {
         "I hope you know how special you are to me. I love making memories with you. ❤️",
 
     musicURL:
-        "",
+        "https://youtu.be/67gKH6_o0zc?si=VZLsfCk6-aC1Z5VA",
 
 
     // ====================================
@@ -30,60 +30,60 @@ const gameData = {
             title: "Our First Memory 💕",
 
             message:
-                "This is one of my favorite memories with you. I hope we make many more.",
+                "inaway kita kasi ano like alam mo na yon.",
 
             image:
-                "https://images.unsplash.com/photo-1518199266791-5375a83190b7"
+                "https://i.pinimg.com/originals/72/d6/26/72d626288954bd94e309512f68502947.jpg"
         },
 
         {
             title: "That Special Day 💗",
 
             message:
-                "I still remember this moment. It makes me smile every time.",
+                "jan 24 is the best day of my life.",
 
             image:
-                "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2"
+                "https://i.pinimg.com/736x/49/1b/7d/491b7dfe223ad95947f6c2141509287a.jpg"
         },
 
         {
-            title: "Our Random Moments 💖",
+            title: "our random memories",
 
             message:
-                "Sometimes the random moments become the memories we remember forever.",
+                "memory mo lang sakin to naalala mo yung bigla kang nag lakad ng naka hubad kasi kakaligo mo lang gulat ako non hahhaa.",
 
             image:
-                "https://images.unsplash.com/photo-1517841905240-472988babdf9"
+                "https://media.tenor.com/9bOLkmS3Yi8AAAAM/spongebob-cute-face.gif"
         },
 
         {
             title: "A Little Reminder 💓",
 
             message:
-                "You mean more to me than you probably realize.",
+                "no lady ha sasapakin kita.",
 
             image:
-                "https://images.unsplash.com/photo-1494774157365-9e04c6720e00"
+                "https://i.pinimg.com/564x/5b/fe/64/5bfe64211de9fa6dca9fbbaee6a45c25.jpg"
         },
 
         {
             title: "Another Memory 💘",
 
             message:
-                "Here's another little piece of our story.",
+                "nung umiyak ka kwinento ko sayo na umiyak ka hahahha love medjo panget ka umiyak pero nakakaawa rin hahha.",
 
             image:
-                "https://images.unsplash.com/photo-1509909756405-be0199881695"
+                "https://media1.tenor.com/m/AT8TzZuXxMYAAAAC/meme-cute.gif"
         },
 
         {
             title: "The Last Memory 💝",
 
             message:
-                "And this is not really the end. It's just another chapter.",
+                "last memory ko na hindi ko makakalimutan sayo is our everyday conversation",
 
             image:
-                "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2"
+                "https://theawesomedaily.com/wp-content/uploads/2017/07/meme-faces-11-1.jpg"
         }
 
     ]
