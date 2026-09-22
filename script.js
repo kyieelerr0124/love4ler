@@ -14,7 +14,7 @@ const gameData = {
         "One Last Thing...",
 
     finalMessage:
-        "I hope you know how special you are to me. I love making memories with you. ❤️",
+        "I hope you know how special you are to me. I love making memories with you.  ❤️",
 
     musicURL:
         "https://youtu.be/67gKH6_o0zc?si=VZLsfCk6-aC1Z5VA",
