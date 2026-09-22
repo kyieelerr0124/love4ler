@@ -40,7 +40,7 @@ const gameData = {
             title: "That Special Day 💗",
 
             message:
-                "jan 24 is the best day of my life.",
+                "jan 24 is the best day of my life .",
 
             image:
                 "https://i.pinimg.com/736x/49/1b/7d/491b7dfe223ad95947f6c2141509287a.jpg"
