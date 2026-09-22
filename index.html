@@ -1,0 +1,229 @@
+# love4ler
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Little Love Game 💕</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MUSIC -->
+    <audio id="music" loop></audio>
+
+
+    <!-- =========================
+         START SCREEN
+    ========================== -->
+
+    <section id="startScreen" class="screen active">
+
+        <div class="card">
+
+            <div class="big-heart">❤️</div>
+
+            <h1>A Little Surprise...</h1>
+
+            <p>
+                I made something special for you.
+            </p>
+
+            <button id="startButton" class="main-button">
+                Open My Surprise 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         QUESTION SCREEN
+    ========================== -->
+
+    <section id="questionScreen" class="screen">
+
+        <div class="card">
+
+            <div class="big-heart">💗</div>
+
+            <h1 id="question">
+                Wanna go out with me?
+            </h1>
+
+            <div class="button-area">
+
+                <button id="yesButton" class="yes-button">
+                    YES ❤️
+                </button>
+
+                <button id="noButton" class="no-button">
+                    NO 😭
+                </button>
+
+            </div>
+
+            <p id="noMessage"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         YES SCREEN
+    ========================== -->
+
+    <section id="yesScreen" class="screen">
+
+        <div id="heartContainer"></div>
+
+        <div class="card">
+
+            <div class="big-heart">💖</div>
+
+            <h1>YAY!!! 😭💕</h1>
+
+            <p id="successMessage">
+                You said YES!
+            </p>
+
+            <button id="continueButton" class="main-button">
+                Continue 💕
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MEMORY SCREEN
+    ========================== -->
+
+    <section id="memoryScreen" class="screen">
+
+        <div class="memory-container">
+
+            <h1>Our Little Memories 💕</h1>
+
+            <p>
+                Click every heart to unlock a memory.
+            </p>
+
+            <div class="progress">
+
+                <span id="progressText">
+                    0 / 6 memories discovered
+                </span>
+
+            </div>
+
+
+            <div id="heartGrid" class="heart-grid">
+
+                <!-- JavaScript creates hearts here -->
+
+            </div>
+
+
+            <button
+                id="finalButton"
+                class="main-button hidden">
+
+                I Found Everything 💖
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MEMORY MODAL
+    ========================== -->
+
+    <div id="memoryModal" class="modal">
+
+        <div class="memory-card">
+
+            <button id="closeMemory" class="close-button">
+                ×
+            </button>
+
+            <img
+                id="memoryImage"
+                src=""
+                alt="Memory">
+
+            <h2 id="memoryTitle"></h2>
+
+            <p id="memoryText"></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         FINAL SCREEN
+    ========================== -->
+
+    <section id="finalScreen" class="screen">
+
+        <div id="finalHearts"></div>
+
+        <div class="card final-card">
+
+            <div id="finalHeart" class="final-heart">
+                ❤️
+            </div>
+
+            <h1 id="finalTitle">
+                One Last Thing...
+            </h1>
+
+            <p id="finalMessage">
+                I hope you know how special you are to me. ❤️
+            </p>
+
+            <button
+                id="explodeButton"
+                class="main-button">
+
+                Click Me 💕
+            </button>
+
+            <button
+                id="restartButton"
+                class="restart-button">
+
+                Restart Experience
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MUSIC SETTINGS
+    ========================== -->
+
+    <button id="musicButton" class="music-button">
+        🎵
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
